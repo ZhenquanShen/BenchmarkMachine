@@ -1,0 +1,14 @@
+{
+  "InputAP": {
+    "predecessors": null,
+    "successors": {
+      "OutputSolution":["deepseek_r1"]
+    }
+  },
+  "OutputSolution": {
+    "predecessors": [
+      "InputAP"
+    ],
+    "successors": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "InputAP": {
+    "predecessors": null,
+    "successors": {
+      "APText":["preprocessing"]
+    }
+  },
+  "APText": {
+    "predecessors": [
+      "InputAP"
+    ],
+    "successors": {
+      "VectorText":["bertencoder"]
+    }
+  },
+  "VectorText": {
+    "predecessors": [
+      "APText"
+    ],
+    "successors": {
+      "EquationSystem":["gtsdecoder"]
+    }
+  },
+  "EquationSystem": {
+    "predecessors": [
+      "VectorText"
+    ],
+    "successors": {
+      "OutputSolution":["compute_expression"]
+    }
+  },
+  "OutputSolution": {
+    "predecessors": [
+      "EquationSystem"
+    ],
+    "successors": null
+  }
+}

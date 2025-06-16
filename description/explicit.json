@@ -1,0 +1,49 @@
+{
+  "InputAP": {
+    "predecessors": null,
+    "successors": {
+      "APText":["preprocessing"],
+      "APDiagram":["base64_img"],
+      "OutputSolution":["specific_solver1"]
+    }
+  },
+  "APText": {
+    "predecessors": [
+      "InputAP"
+    ],
+    "successors": {
+      "ExplicitRelationSet":["S2_extracting"]
+    }
+  },
+  "ExplicitRelationSet": {
+    "predecessors": [
+      "APText"
+    ],
+    "successors": {
+      "RelationSet":["fusing_ExplicitRelationSet"]
+    }
+  },
+  "RelationSet": {
+    "predecessors": [
+      "ExplicitRelationSet"
+    ],
+    "successors": {
+      "EquationSystem":["scene_reasoning"]
+    }
+  },
+  "EquationSystem": {
+    "predecessors": [
+      "ExplicitRelationSet",
+      "RelationSet"
+    ],
+    "successors": {
+      "OutputSolution":["sympy_solving"]
+    }
+  },
+  "OutputSolution": {
+    "predecessors": [
+      "EquationSystem"
+    ],
+    "successors": null
+  }
+}

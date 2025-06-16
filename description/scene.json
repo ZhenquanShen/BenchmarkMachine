@@ -1,0 +1,76 @@
+{
+  "InputAP": {
+    "predecessors": null,
+    "successors": {
+      "APText":["preprocessing"],
+      "APDiagram":["base64_img"],
+      "OutputSolution":["specific_solver1"]
+    }
+  },
+  "APText": {
+    "predecessors": [
+      "InputAP"
+    ],
+    "successors": {
+      "ExplicitRelationSet":["S2_extracting"],
+      "ImplicitRelationSet":["keyword_acquiring"]
+    }
+  },
+  "APDiagram": {
+    "predecessors": [
+      "InputAP"
+    ],
+    "successors": {
+      "DiagramRelationSet": ["vector_diagramet_extracting","copy_diagram_relation"]
+    }
+  },
+  "ExplicitRelationSet": {
+    "predecessors": [
+      "APText"
+    ],
+    "successors": {
+      "RelationSet":["fusing_ExplicitRelationSet"]
+    }
+  },
+  "ImplicitRelationSet": {
+    "predecessors": [
+      "APText"
+    ],
+    "successors": {
+      "RelationSet":["fusing_ImplicitRelationSet"]
+    }
+  },
+  "DiagramRelationSet": {
+    "predecessors": [
+      "APDiagram"
+    ],
+    "successors": {
+      "RelationSet":["fusing_DiagramRelationSet"]
+    }
+  },
+  "RelationSet": {
+    "predecessors": [
+      "ExplicitRelationSet",
+      "ImplicitRelationSet",
+      "DiagramRelationSet"
+    ],
+    "successors": {
+      "EquationSystem":["scene_reasoning","diagram_reasoning"]
+    }
+  },
+  "EquationSystem": {
+    "predecessors": [
+      "ExplicitRelationSet",
+      "RelationSet"
+    ],
+    "successors": {
+      "OutputSolution":["diagram_sympy_solving","sympy_solving"]
+    }
+  },
+  "OutputSolution": {
+    "predecessors": [
+      "EquationSystem"
+    ],
+    "successors": null
+  }
+}

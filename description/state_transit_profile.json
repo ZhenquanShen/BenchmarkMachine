@@ -1,0 +1,101 @@
+{
+  "InputAP": {
+    "predecessors": null,
+    "successors": {
+      "APText":["copyto"],
+      "APDiagram":["img_base64"]
+    }
+  },
+  "APText": {
+    "predecessors": [
+      "InputAP"
+    ],
+    "successors": {
+      "AnnotatedText":["nlpir","jieba","nltp"],
+      "VectorText":["bert_encoding"]
+    }
+  },
+  "VectorText": {
+    "predecessors": [
+      "APText"
+    ],
+    "successors": {
+      "AnnotatedText":["nltp"],
+      "AnnotatedVectorText":["nltp"],
+      "ImplicitRelationSet":["qran"]
+    }
+  },
+  "AnnotatedText": {
+    "predecessors": [
+      "APText",
+      "VectorText"
+    ],
+    "successors": {
+      "ExplicitRelationSet":["s2"],
+      "ImplicitRelationSet":["keywords"]
+    }
+  },
+  "AnnotatedVectorText": {
+    "predecessors": [
+      "APText",
+      "VectorText"
+    ],
+    "successors": {
+      "ExplicitRelationSet":["vs2"],
+      "ImplicitRelationSet":["keywords"]
+    }
+  },
+  "ExplicitRelationSet": {
+    "predecessors": [
+      "AnnotatedText",
+      "AnnotatedVectorText"
+    ],
+    "successors": {
+      "RelationSet":["fuse"]
+    }
+  },
+  "ImplicitRelationSet": {
+    "predecessors": [
+      "AnnotatedText",
+      "VectorText"
+    ],
+    "successors": {
+      "RelationSet":["fuse"]
+    }
+  },
+  "SceneRelationSet": {
+    "predecessors": [
+      "ExplicitRelationSet",
+      "ImplicitRelationSet"
+    ],
+    "successors": {
+      "RelationSet":["fuse"]
+    }
+  },
+  "RelationSet": {
+    "predecessors": [
+      "ExplicitRelationSet",
+      "ImplicitRelationSet",
+      "SceneRelationSet"
+    ],
+    "successors": {
+      "EquationSystem":["scene_reasoning","diagram_reasoning"]
+    }
+  },
+  "EquationSystem": {
+    "predecessors": [
+      "ExplicitRelationSet",
+      "RelationSet",
+      "SceneRelationSet"
+    ],
+    "successors": {
+      "OutputSolution":["sympy_solving"]
+    }
+  },
+  "OutputSolution": {
+    "predecessors": [
+      "EquationSystem"
+    ],
+    "successors": null
+  }
+}

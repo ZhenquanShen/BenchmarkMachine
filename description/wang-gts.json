@@ -1,0 +1,38 @@
+{
+  "InputAP": {
+    "predecessors": null,
+    "successors": {
+      "APText":["preprocessing"]
+    }
+  },
+  "APText": {
+    "predecessors": [
+      "InputAP"
+    ],
+    "successors": {
+      "VectorText":["graph2tree_wang_encoder"]
+    }
+  },
+  "VectorText": {
+    "predecessors": [
+      "APText"
+    ],
+    "successors": {
+      "EquationSystem":["wanggtsdecoder"]
+    }
+  },
+  "EquationSystem": {
+    "predecessors": [
+      "VectorText"
+    ],
+    "successors": {
+      "OutputSolution":["compute_expression"]
+    }
+  },
+  "OutputSolution": {
+    "predecessors": [
+      "EquationSystem"
+    ],
+    "successors": null
+  }
+}
