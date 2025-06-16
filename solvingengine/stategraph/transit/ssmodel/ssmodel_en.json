@@ -1,0 +1,253 @@
+[
+    {
+        "id": "1",
+        "m_pattern": "n,v,m,n",
+        "relation": "A=B*C",
+        "var_slot_val": "n,m,n",
+        "var_slot_index": {
+            "A": "0",
+            "B": "2",
+            "C": "3"
+        }
+    },
+    {
+        "id": "2",
+        "m_pattern": "v,m,a,n",
+        "relation": "A*B=C",
+        "var_slot_val": "m,a,n",
+        "var_slot_index": {
+            "A": "1",
+            "B": "2",
+            "C": "3"
+        }
+    },
+    {
+        "id": "3",
+        "m_pattern": "f,a,n,v,n",
+        "relation": "A*B=C",
+        "var_slot_val": "a,n,n",
+        "var_slot_index": {
+            "A": "1",
+            "B": "2",
+            "C": "4"
+        }
+    },
+    {
+        "id": "4",
+        "m_pattern": "each,n,v,m,and,m",
+        "relation": "A=B+C",
+        "var_slot_val": "n,m,m",
+        "var_slot_index": {
+            "A": "1",
+            "B": "3",
+            "C": "5"
+        }
+    },
+    {
+        "id": "5",
+        "m_pattern": "v,m,n,n",
+        "relation": "A*B=C",
+        "var_slot_val": "m,n,n",
+        "var_slot_index": {
+            "A": "1",
+            "B": "2",
+            "C": "3"
+        }
+    },
+    {
+        "id": "6",
+        "m_pattern": "n,v,double,n",
+        "relation": "A=B*2",
+        "var_slot_val": "n,n",
+        "var_slot_index": {
+            "A": "0",
+            "B": "3"
+        }
+    },
+    {
+        "id": "7",
+        "m_pattern": "n,v,m,time,n",
+        "relation": "A=B*C",
+        "var_slot_val": "n,m,n",
+        "var_slot_index": {
+            "A": "0",
+            "B": "2",
+            "C": "4"
+        }
+    },
+    {
+        "id": "8",
+        "m_pattern": "estimate,n,n",
+        "relation": "A=B*C",
+        "var_slot_val": "n,m,n",
+        "var_slot_index": {
+            "A": "0",
+            "B": "2",
+            "C": "4"
+        }
+    },
+    {
+        "id": "9",
+        "m_pattern": "n,v,m,every,n",
+        "relation": "A=B",
+        "var_slot_val": "m,n",
+        "var_slot_index": {
+            "A": "2",
+            "B": "4"
+        }
+    },
+    {
+        "id": "10",
+        "m_pattern": "f,a,n,v,m,n",
+        "relation": "A*B=C*D",
+        "var_slot_val": "a,n,m,n",
+        "var_slot_index": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "5"
+        }
+    },
+    {
+        "id": "11",
+        "m_pattern": "there,v,m,n",
+        "relation": "A=B",
+        "var_slot_val": "m,n",
+        "var_slot_index": {
+            "A": "2",
+            "B": "3"
+        }
+    },
+    {
+        "id": "12",
+        "m_pattern": "n,v,twice,n",
+        "relation": "A=B*2",
+        "var_slot_val": "n,n",
+        "var_slot_index": {
+            "A": "0",
+            "B": "3"
+        }
+    },
+    {
+        "id": "14",
+        "m_pattern": "there,v,m,more,n,than,n",
+        "relation": "A=B+C",
+        "var_slot_val": "n,n,m",
+        "var_slot_index": {
+            "A": "4",
+            "B": "6",
+            "C": "2"
+        }
+    },
+    {
+        "id": "15",
+        "m_pattern": "f,a,n",
+        "relation": "X=A",
+        "var_slot_val": "a,n",
+        "var_slot_index": {
+            "X": "1",
+            "A": "2"
+        }
+    },
+    {
+        "id": "16",
+        "m_pattern": "n,of,n,v,m,n",
+        "relation": "A=B*C",
+        "var_slot_val": "n,m,n",
+        "var_slot_index": {
+            "A": "2",
+            "B": "4",
+            "C": "5"
+        }
+    },
+    {
+        "id": "17",
+        "m_pattern": "n,v,m,time,n",
+        "relation": "A=B*C",
+        "var_slot_val": "n,m,n",
+        "var_slot_index": {
+            "A": "0",
+            "B": "2",
+            "C": "4"
+        }
+    },
+    {
+        "id": "18",
+        "m_pattern": "f,n,v,n",
+        "relation": "A=B",
+        "var_slot_val": "n,n",
+        "var_slot_index": {
+            "A": "1",
+            "B": "3"
+        }
+    },
+    {
+        "id": "19",
+        "m_pattern": "m,n,v,n,m,n",
+        "relation": "A*B=C*D",
+        "var_slot_val": "m,n,m,n",
+        "var_slot_index": {
+            "A": "0",
+            "B": "1",
+            "C": "4",
+            "D": "5"
+        }
+    },
+    {
+        "id": "20",
+        "m_pattern": "there,v,m,n,n",
+        "relation": "A*B=C",
+        "var_slot_val": "m,n,n",
+        "var_slot_index": {
+            "A": "2",
+            "B": "3",
+            "C": "4"
+        }
+    },
+    {
+        "id": "21",
+        "m_pattern": "there,v,m,n,n",
+        "relation": "A*B=C",
+        "var_slot_val": "m,n,n",
+        "var_slot_index": {
+            "A": "2",
+            "B": "3",
+            "C": "4"
+        }
+    },
+    {
+        "id": "22",
+        "m_pattern": "m,n,v,m,n",
+        "relation": "A*B=C*D",
+        "var_slot_val": "m,n,m,n",
+        "var_slot_index": {
+            "A": "0",
+            "B": "1",
+            "C": "3",
+            "D": "4"
+        }
+    },
+    {
+        "id": "23",
+        "m_pattern": "m,n,v,m,n",
+        "relation": "A*B=C*D",
+        "var_slot_val": "m,n,m,n",
+        "var_slot_index": {
+            "A": "0",
+            "B": "1",
+            "C": "3",
+            "D": "4"
+        }
+    },
+    {
+        "id": "24",
+        "m_pattern": "s,v,defeat,m,n",
+        "relation": "A+B*C=0",
+        "var_slot_val": "s,m,n",
+        "var_slot_index": {
+            "A": "0",
+            "B": "3",
+            "C": "4"
+        }
+    }
+]

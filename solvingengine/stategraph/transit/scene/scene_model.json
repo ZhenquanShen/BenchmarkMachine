@@ -1,0 +1,110 @@
+{
+    "TreePlanting": {
+        "scene_ptn": {
+            "sent_s2_ptn": [
+                "每,隔,m,q",
+                "每,n,间隔,m,q",
+                "每,n,相隔,m,q"
+            ]
+        },
+        "element_ptn": {
+            "sum_trees": [
+                "一共",
+                "共"
+            ],
+            "distance": [
+                "周长"
+            ],
+            "tree_span": [
+                "隔",
+                "间隔",
+                "相隔"
+            ]
+        },
+        "scene_formula": "sum_trees=distance/tree_span"
+    },
+    "TrainCrossingBridge": {
+        "scene_ptn": {
+            "kw_ptn": [
+                "火车,桥",
+                "火车,隧道"
+            ]
+        },
+        "element_ptn": {
+            "bridge_length": [
+                "桥,米",
+                "隧道,米",
+                "桥,多少",
+                "隧道,多少"
+            ],
+            "train_length": [
+                "火车,米",
+                "火车,多少"
+            ],
+            "speed": [
+                "速度"
+            ],
+            "time": [
+                "时间"
+            ]
+        },
+        "scene_formula": "bridge_length+train_length=speed*time"
+    },
+    "Meet": {
+        "scene_ptn": {
+            "kw_ptn": [
+                "同时,相对,相遇",
+                "同时,相向,相遇"
+            ]
+        },
+        "element_ptn": {
+            "total_distance": [
+                "相距"
+            ],
+            "speed_a": [
+                "速度"
+            ],
+            "speed_b": [
+                "速度"
+            ],
+            "meeting_time": [
+                "时间"
+            ]
+        },
+        "scene_formula": "total_distance=(speed_a+speed_b)*meeting_time"
+    },
+    "NormalizedQuantityMultiplexing": {
+        "scene_ptn": {
+            "kw_ptn": [
+                "照这样",
+                "同样的"
+            ]
+        },
+        "element_ptn": {
+            "sum1": [
+                "桥,米",
+                "隧道,米",
+                "桥,多少",
+                "隧道,多少"
+            ],
+            "size1": [
+                "火车,米",
+                "火车,多少"
+            ],
+            "sum2": [
+                "桥,米",
+                "隧道,米",
+                "桥,多少",
+                "隧道,多少"
+            ],
+            "size2": [
+                "火车,米",
+                "火车,多少"
+            ],
+            "normalized_quantity": [
+                "时间"
+            ]
+        },
+        "scene_formula": "normalized_quantity=sum1/size1,normalized_quantity=sum2/size2"
+    }
+}

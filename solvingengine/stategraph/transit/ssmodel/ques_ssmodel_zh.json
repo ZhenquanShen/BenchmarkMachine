@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "m_pattern": "有,多少,q,n",
+        "relation": "a=b*c",
+        "var_slot_val": "n,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2"
+        }
+    },
+    {
+        "id": "2",
+        "m_pattern": "n,v,多少,q",
+        "relation": "a=b/c",
+        "var_slot_val": "n,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2"
+        }
+    }
+]

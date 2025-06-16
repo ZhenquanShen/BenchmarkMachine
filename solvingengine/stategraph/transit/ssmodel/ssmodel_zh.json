@@ -1,0 +1,1351 @@
+[
+    {
+        "id": "1",
+        "m_pattern": "n,是,n,一半",
+        "relation": "a=b/c",
+        "var_slot_val": "n,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2"
+        }
+    },
+    {
+        "id": "2",
+        "m_pattern": "m,q,n",
+        "relation": "a*b=c",
+        "var_slot_val": "m,q,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "3",
+        "m_pattern": "m,q,q",
+        "relation": "a*b=c",
+        "var_slot_val": "m,q,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "4",
+        "m_pattern": "多少,q,n",
+        "relation": "a*b=c",
+        "var_slot_val": "多少,q,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "5",
+        "m_pattern": "有,m,q,n",
+        "relation": "a*b=c",
+        "var_slot_val": "m,q,n",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "6",
+        "m_pattern": "有,m,q,v",
+        "relation": "a*b=c",
+        "var_slot_val": "m,q,v",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "7",
+        "m_pattern": "n,几,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,几,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "8",
+        "m_pattern": "n,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "9",
+        "m_pattern": "q,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "q,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "10",
+        "m_pattern": "t,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "t,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "11",
+        "m_pattern": "n,成,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "12",
+        "m_pattern": "n,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "13",
+        "m_pattern": "n,m,q,n",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "14",
+        "m_pattern": "每,q,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "q,m,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "15",
+        "m_pattern": "每,q,几,q",
+        "relation": "a=b*c",
+        "var_slot_val": "q,几,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "16",
+        "m_pattern": "q,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "q,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "17",
+        "m_pattern": "t,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "t,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "19",
+        "m_pattern": "v,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "v,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "20",
+        "m_pattern": "v,n,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "21",
+        "m_pattern": "已经,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "已经,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "22",
+        "m_pattern": "m,q,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+        }
+    },
+    {
+        "id": "23",
+        "m_pattern": "有,n,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "24",
+        "m_pattern": "到,n,有,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "3",
+            "c": "4"
+        }
+    },
+    {
+        "id": "25",
+        "m_pattern": "n,共,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "26",
+        "m_pattern": "n,每,q,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "q,m,q",
+        "var_slot_index": {
+            "a": "2",
+            "b": "3",
+            "c": "4"
+        }
+    },
+    {
+        "id": "27",
+        "m_pattern": "n,是,n,m,倍",
+        "relation": "a=b*c",
+        "var_slot_val": "n,n,m",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "28",
+        "m_pattern": "n,是,n,几,倍",
+        "relation": "a=b*c",
+        "var_slot_val": "n,n,几",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "29",
+        "m_pattern": "n,有,m,q,n",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "30",
+        "m_pattern": "每,q,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "q,多少,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "31",
+        "m_pattern": "每,q,n,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,q",
+        "var_slot_index": {
+            "a": "2",
+            "b": "3",
+            "c": "4"
+        }
+    },
+    {
+        "id": "32",
+        "m_pattern": "t,是,t,m,倍",
+        "relation": "a=b*c",
+        "var_slot_val": "t,t,m",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "34",
+        "m_pattern": "v,是,n,m,倍",
+        "relation": "a=b*c",
+        "var_slot_val": "v,n,m",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "35",
+        "m_pattern": "m,q,n,m,q",
+        "relation": "a*b*c=d*e",
+        "var_slot_val": "m,q,n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3",
+            "e": "4"
+        }
+    },
+    {
+        "id": "36",
+        "m_pattern": "n,是,n,多少,倍",
+        "relation": "a=b*c",
+        "var_slot_val": "n,n,多少",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "37",
+        "m_pattern": "每,q,n,m,q,n",
+        "relation": "a=b*c",
+        "var_slot_val": "q,m,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "3",
+            "c": "4"
+        }
+    },
+    {
+        "id": "38",
+        "m_pattern": "每,q,n,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,多少,q",
+        "var_slot_index": {
+            "a": "2",
+            "b": "3",
+            "c": "4"
+        }
+    },
+    {
+        "id": "39",
+        "m_pattern": "m,q,n,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,多少,q",
+        "var_slot_index": {
+            "a": "2",
+            "b": "3",
+            "c": "4"
+        }
+    },
+    {
+        "id": "40",
+        "m_pattern": "m,q,n,是,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,q",
+        "var_slot_index": {
+            "a": "2",
+            "b": "4",
+            "c": "5"
+        }
+    },
+    {
+        "id": "41",
+        "m_pattern": "m,q,大约,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "q,多少,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "3",
+            "c": "4"
+        }
+    },
+    {
+        "id": "42",
+        "m_pattern": "m,q,n,每,q,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,q",
+        "var_slot_index": {
+            "a": "2",
+            "b": "5",
+            "c": "6"
+        }
+    },
+    {
+        "id": "43",
+        "m_pattern": "n,相当,于,多少,倍,n",
+        "relation": "a=b*c",
+        "var_slot_val": "n,多少,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "3",
+            "c": "5"
+        }
+    },
+    {
+        "id": "44",
+        "m_pattern": "每,q,n,每,q,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "n,多少,q",
+        "var_slot_index": {
+            "a": "2",
+            "b": "5",
+            "c": "6"
+        }
+    },
+    {
+        "id": "45",
+        "m_pattern": "m,q,n,等,于,m,q,n",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,n",
+        "var_slot_index": {
+            "a": "2",
+            "b": "5",
+            "c": "7"
+        }
+    },
+    {
+        "id": "46",
+        "m_pattern": "m,q,n,是,m,q,n,m,倍",
+        "relation": "a=b*c",
+        "var_slot_val": "n,n,m",
+        "var_slot_index": {
+            "a": "2",
+            "b": "6",
+            "c": "7"
+        }
+    },
+    {
+        "id": "47",
+        "m_pattern": "每,q,n,和,n",
+        "relation": "a=b+c",
+        "var_slot_val": "q,n,n",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "4"
+        }
+    },
+    {
+        "id": "48",
+        "m_pattern": "有,多少,q,n",
+        "relation": "c=a*b",
+        "var_slot_val": "多少,q,n",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "49",
+        "m_pattern": "n,每,q,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "q,m,q",
+        "var_slot_index": {
+            "a": "2",
+            "b": "3",
+            "c": "4"
+        }
+    },
+    {
+        "id": "50",
+        "m_pattern": "m,q,几,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,几,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+        }
+    },
+    {
+        "id": "51",
+        "m_pattern": "m,q,m,n",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,m,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+        }
+    },
+    {
+        "id": "52",
+        "m_pattern": "m,q,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+        }
+    },
+    {
+        "id": "53",
+        "m_pattern": "m,q,多少,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+        }
+    },
+    {
+        "id": "54",
+        "m_pattern": "m,q,m,q,n",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+        }
+    },
+    {
+        "id": "55",
+        "m_pattern": "m,q,n,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "56",
+        "m_pattern": "n,m,q,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "n,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "57",
+        "m_pattern": "每,m,q,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,m,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "58",
+        "m_pattern": "m,q,多少,q,n",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+        }
+    },
+    {
+        "id": "59",
+        "m_pattern": "m,q,多少,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "4"
+        }
+    },
+    {
+        "id": "60",
+        "m_pattern": "m,q,n,多少,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "61",
+        "m_pattern": "m,q,n,几,q,n",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,n,几,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "5"
+        }
+    },
+    {
+        "id": "62",
+        "m_pattern": "m,q,n,m,q,n",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "63",
+        "m_pattern": "n,m,q,m,q,n",
+        "relation": "a*b=c*d",
+        "var_slot_val": "n,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "64",
+        "m_pattern": "n,m,q,v,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "n,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "65",
+        "m_pattern": "m,q,一共,多少,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "66",
+        "m_pattern": "m,n,每,q,v,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "5",
+            "d": "6"
+        }
+    },
+    {
+        "id": "67",
+        "m_pattern": "m,q,n,多少,q,n",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,q,多少,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "5"
+        }
+    },
+    {
+        "id": "68",
+        "m_pattern": "m,q,n,是,n,m,倍",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,n,n,m",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "69",
+        "m_pattern": "m,q,n,m,q,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "n,m,m,q",
+        "var_slot_index": {
+            "a": "2",
+            "b": "3",
+            "c": "5",
+            "d": "6"
+        }
+    },
+    {
+        "id": "70",
+        "m_pattern": "m,q,n,每,q,多少,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "5",
+            "d": "6"
+        }
+    },
+    {
+        "id": "71",
+        "m_pattern": "n,m,m,q",
+        "relation": "a=b*c*d",
+        "var_slot_val": "n,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+        }
+    },
+    {
+        "id": "72",
+        "m_pattern": "q,m,m,q",
+        "relation": "a=b*c*d",
+        "var_slot_val": "q,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+        }
+    },
+    {
+        "id": "73",
+        "m_pattern": "n,v,m,m,q",
+        "relation": "a=b*c*d",
+        "var_slot_val": "n,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "74",
+        "m_pattern": "n,v,m,多少,q",
+        "relation": "a=b*c*d",
+        "var_slot_val": "n,m,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "79",
+        "m_pattern": "n,比,n,多,多少,q",
+        "relation": "a=b+c*d",
+        "var_slot_val": "n,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "80",
+        "m_pattern": "n,比,n,贵,多少,q",
+        "relation": "a=b+c*d",
+        "var_slot_val": "n,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "81",
+        "m_pattern": "n,比,n,多,多少,q,n",
+        "relation": "a=b+c*d",
+        "var_slot_val": "n,n,多少,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "6"
+        }
+    },
+    {
+        "id": "86",
+        "m_pattern": "n,比,n,少,多少,q",
+        "relation": "a=b-c*d",
+        "var_slot_val": "n,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "87",
+        "m_pattern": "n,比,n,便宜,多少,q",
+        "relation": "a=b-c*d",
+        "var_slot_val": "n,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "88",
+        "m_pattern": "n,和,n,共,m,q",
+        "relation": "a+b=c*d",
+        "var_slot_val": "n,n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "89",
+        "m_pattern": "n,和,n,共,多少,q",
+        "relation": "a+b=c*d",
+        "var_slot_val": "n,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "90",
+        "m_pattern": "n,和,n,和,是,m,q",
+        "relation": "a+b=c*d",
+        "var_slot_val": "n,n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "5",
+            "d": "6"
+        }
+    },
+    {
+        "id": "91",
+        "m_pattern": "v,n,和,n,共,多少,q",
+        "relation": "a+b=c*d",
+        "var_slot_val": "n,n,多少,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "3",
+            "c": "5",
+            "d": "6"
+        }
+    },
+    {
+        "id": "92",
+        "m_pattern": "已经,到,n,还,多少,q",
+        "relation": "b-a=c*d",
+        "var_slot_val": "已经,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "93",
+        "m_pattern": "n,和,n,平均,m,q",
+        "relation": "a+b=2*c*d",
+        "var_slot_val": "n,n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "94",
+        "m_pattern": "n,和,n,平均,多少,q",
+        "relation": "a+b=2*c*d",
+        "var_slot_val": "n,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "5"
+        }
+    },
+    {
+        "id": "95",
+        "m_pattern": "m,n,m,v,m,q",
+        "relation": "a*b*c=d*e",
+        "var_slot_val": "m,n,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "4",
+            "e": "5"
+        }
+    },
+    {
+        "id": "96",
+        "m_pattern": "n,m,q,多少,q",
+        "relation": "a*b*c=d*e",
+        "var_slot_val": "n,m,q,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3",
+            "e": "4"
+        }
+    },
+    {
+        "id": "97",
+        "m_pattern": "m,n,m,v,多少,q",
+        "relation": "a*b*c=d*e",
+        "var_slot_val": "m,n,m,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "4",
+            "e": "5"
+        }
+    },
+    {
+        "id": "98",
+        "m_pattern": "m,q,n,m,q,m,q",
+        "relation": "a*b*c=d*e",
+        "var_slot_val": "m,n,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "5",
+            "e": "6"
+        }
+    },
+    {
+        "id": "99",
+        "m_pattern": "m,q,n,m,q,多少,q",
+        "relation": "a*b*c=d*e",
+        "var_slot_val": "m,n,m,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "5",
+            "e": "6"
+        }
+    },
+    {
+        "id": "100",
+        "m_pattern": "n,比,n,m,倍,多,m,q",
+        "relation": "a=b*c+d*e",
+        "var_slot_val": "n,n,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "6",
+            "e": "7"
+        }
+    },
+    {
+        "id": "101",
+        "m_pattern": "n,比,n,m,倍,少,m,q",
+        "relation": "a=b*c-d*e",
+        "var_slot_val": "n,n,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "6",
+            "e": "7"
+        }
+    },
+    {
+        "id": "102",
+        "m_pattern": "v,比,n,m,倍,少,m,q",
+        "relation": "a=b*c-d*e",
+        "var_slot_val": "v,n,m,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "6",
+            "e": "7"
+        }
+    },
+    {
+        "id": "103",
+        "m_pattern": "从,n,取出,m,q,到,n",
+        "relation": "a-b*c=d+b*c",
+        "var_slot_val": "n,m,q,n",
+        "var_slot_index": {
+            "a": "1",
+            "b": "3",
+            "c": "4",
+            "d": "6"
+        }
+    },
+    {
+        "id": "104",
+        "m_pattern": "n,取出,m,q,放,到,n,后,相同",
+        "relation": "a-b*c=d+b*c",
+        "var_slot_val": "n,m,q,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "6"
+        }
+    },
+    {
+        "id": "105",
+        "m_pattern": "m,q,v,n,和,n,剩,多少,q",
+        "relation": "a*b=c+d+e*f",
+        "var_slot_val": "m,q,n,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "5",
+            "e": "7",
+            "f": "8"
+        }
+    },
+    {
+        "id": "106",
+        "m_pattern": "用,m,q,买,n,和,n,还,剩,多少,q",
+        "relation": "a*b=c+d+e*f",
+        "var_slot_val": "m,q,n,n,多少,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "2",
+            "c": "4",
+            "d": "6",
+            "e": "9",
+            "f": "10"
+        }
+    },
+    {
+        "id": "107",
+        "m_pattern": "m,q,n,和,m,q,n,共,多少,q",
+        "relation": "a*b+c*d=e*f",
+        "var_slot_val": "m,n,m,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "4",
+            "d": "6",
+            "e": "8",
+            "f": "9"
+        }
+    },
+    {
+        "id": "108",
+        "m_pattern": "n,m,q,和,n,m,q,共,多少,q",
+        "relation": "a*b+c*d=e*f",
+        "var_slot_val": "n,m,n,m,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "4",
+            "d": "5",
+            "e": "8",
+            "f": "9"
+        }
+    },
+    {
+        "id": "109",
+        "m_pattern": "n,n,n,和,n,平均,多少,q",
+        "relation": "a+b+c+d=4*e*f",
+        "var_slot_val": "n,n,n,n,多少,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "4",
+            "e": "6",
+            "f": "7"
+        }
+    },
+    {
+        "id": "110",
+        "m_pattern": "m,q,m,q,n,和,m,q,m,q,n",
+        "relation": "a*b*c+d*e*f=g",
+        "var_slot_val": "m,m,q,m,m,q,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "6",
+            "e": "8",
+            "f": "9",
+            "g": "10"
+        }
+    },
+    {
+        "id": "111",
+        "m_pattern": "m,q,有,多少,q,n",
+        "relation": "a*b=c*d*e",
+        "var_slot_val": "m,q,多少,q,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "4",
+            "e": "5"
+        }
+    },
+    {
+        "id": "112",
+        "m_pattern": "n,v,m,q,n",
+        "relation": "a=b*c*d",
+        "var_slot_val": "n,m,q,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "113",
+        "m_pattern": "n,有,m,q,n",
+        "relation": "a=b*c*d",
+        "var_slot_val": "n,m,q,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "114",
+        "m_pattern": "m,n,多少,m,q",
+        "relation": "a*b=c*d*e",
+        "var_slot_val": "m,n,多少,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3",
+            "e": "4"
+        }
+    },
+    {
+        "id": "115",
+        "m_pattern": "m,n,v,m,q",
+        "relation": "a*b=c*d",
+        "var_slot_val": "m,n,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "116",
+        "m_pattern": "n,m,等于,n,m",
+        "relation": "a*b=c*d",
+        "var_slot_val": "n,m,n,m",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "117",
+        "m_pattern": "已经,m,n",
+        "relation": "a=b*c",
+        "var_slot_val": "已经,m,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "118",
+        "m_pattern": "已经,v,m,q",
+        "relation": "a=b*c",
+        "var_slot_val": "已经,m,q",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1",
+            "c": "2"
+        }
+    },
+    {
+        "id": "119",
+        "m_pattern": "已经,v,m,q",
+        "relation": "a=b",
+        "var_slot_val": "已经,v",
+        "var_slot_index": {
+            "a": "0",
+            "b": "1"
+        }
+    },
+    {
+        "id": "120",
+        "m_pattern": "剩下,是,v,m,倍",
+        "relation": "a=b*c",
+        "var_slot_val": "剩下,v,m",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "121",
+        "m_pattern": "n,一共,有,多少,q",
+        "relation": "a=b*c",
+        "var_slot_val": "一共,多少,q",
+        "var_slot_index": {
+            "a": "1",
+            "b": "3",
+            "c": "4"
+        }
+    },
+    {
+        "id": "122",
+        "m_pattern": "一共,有,多少,q,n",
+        "relation": "a=b*c*d",
+        "var_slot_val": "一共,多少,q,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        }
+    },
+    {
+        "id": "124",
+        "m_pattern": "n,和,n,共,多少,q",
+        "relation": "a+b=c",
+        "var_slot_val": "n,n,共",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "126",
+        "m_pattern": "n,有,m,n",
+        "relation": "a=b*c",
+        "var_slot_val": "n,m,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    },
+    {
+        "id": "127",
+        "m_pattern": "n,有,多少,n",
+        "relation": "a=b*c",
+        "var_slot_val": "n,多少,n",
+        "var_slot_index": {
+            "a": "0",
+            "b": "2",
+            "c": "3"
+        }
+    }
+]
