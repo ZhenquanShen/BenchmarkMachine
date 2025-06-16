@@ -1,0 +1,19 @@
+s2model:
+  path: D:/code/benchmarkmachine/solvingengine/stategraph/transit/ssmodel/s2_model_cn.json
+  vocab: D:/code/benchmarkmachine/solvingengine/stategraph/transit/ssmodel/vocab_cn.json
+  priority: D:/code/benchmarkmachine/solvingengine/stategraph/transit/ssmodel/s2_model_cn_priority.json
+  pkl_path: D:/code/benchmarkmachine/solvingengine/stategraph/transit/ssmodel/model_data.pkl
+  matched_out: False #[True,False]
+  matched_out_path: logs/ssmod_matched_text
+
+scene_model:
+  path: D:/code/benchmarkmachine/solvingengine/stategraph/transit/scene/scene_model.json
+  vocab: D:/code/benchmarkmachine/solvingengine/stategraph/transit/scene/vocab.json
+
+
+nltp:
+  model_path: D:/code/benchmarkmachine/solvingengine/stategraph/transit/LTP_base_1
+
+decisions:
+  root_path: ./
+  run_mode: dev #[dev: with intermediate result, test: just output final result]
