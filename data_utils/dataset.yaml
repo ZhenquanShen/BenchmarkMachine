@@ -1,0 +1,10 @@
+dataset:
+  file_path: D:/code/benchmarkmachine/dataset/benchmark_data.json
+  # file_path: D:/code/benchmarkmachine/dataset/benchmark_test_data.json
+  # file_path: D:/code/benchmarkmachine/dataset/SumData.json
+  file_type: STD_JSON #["STD_JSON", "CSV", "DL_JSON"]
+  chunk_size: 100000 # Only effective when reading CSV
+  mode: dev #[dev with ans, test with no ans]
+  lang: ZH
+logs:
+  path: logs/
